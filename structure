@@ -1,0 +1,37 @@
+art.and.mind/
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml        # Auto-deploy to GitHub Pages
+│
+├── src/
+│   ├── index.html            # Homepage
+│   ├── about.html            # About Art & Mind, Inc.
+│   ├── programs.html         # Community services
+│   ├── contact.html          # Contact form
+│   ├── forms/
+│   │   ├── signup.html       # Volunteer sign-up
+│   │   ├── donate.html       # Donation form
+│   │   └── feedback.html     # Feedback form
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   ├── forms.js          # Handle form validation/storage
+│   │   └── analytics.js      # Chart.js-based analytics
+│   └── assets/
+│       ├── images/           # Logos, event photos
+│       └── docs/             # Flyers, PDFs
+│
+├── data/
+│   ├── signups.json          # Volunteer sign-ups
+│   ├── donations.json        # Donation logs (or API connection later)
+│   └── feedback.json         # Community feedback
+│
+├── analytics/
+│   ├── dashboard.html        # Admin dashboard
+│   ├── charts.js             # Visualization with Chart.js
+│   └── reports/              # Exported CSV/Excel/PDF
+│
+├── README.md                 # Repo overview
+├── LICENSE                   # MIT or nonprofit license
+└── CONTRIBUTING.md           # Guidelines
